@@ -2,6 +2,9 @@
 
 **This is a simple to-do application that allows users to add, delete and filter to-do items.**
 
+### Screenshot
+[](screenshot.jpg)
+
 ## Features
 
 - Add new to-do items by typing in the input field and clicking on the "Submit" button or pressing the "Enter" key
