@@ -91,7 +91,7 @@ h1 {
     max-width: 540px;
     height: 48px;
     border-radius: 5px;
-    margin: 0 auto 16px;
+    margin: 0 auto;
     display: block;
     padding-left: 20px;
     outline: none;
