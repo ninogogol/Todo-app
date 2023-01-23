@@ -87,7 +87,7 @@ h1 {
 }
 
 .create-new-todo {
-    width: 87.2%;
+    width: 94%;
     max-width: 540px;
     height: 48px;
     border-radius: 5px;
@@ -99,7 +99,7 @@ h1 {
 }
 
 .container-check-priority {
-    width: 87.2%;
+    width: 94%;
     max-width: 540px;
     height: 48px;
     display: flex;
@@ -177,7 +177,7 @@ label {
 }
 
 .container-dark-mode {
-    width: 87.2%;
+    width: 94%;
     max-width: 540px;
     height: auto;
     margin: 0 auto;
@@ -233,7 +233,7 @@ label {
 
 .counter-clear-completed {
     height: 48px;
-    width: 87.2%;
+    width: 94%;
     max-width: 540px;
     margin: 0 auto 20px;
     border-radius: 0 0 5px 5px;
@@ -261,7 +261,7 @@ label {
     align-items: center;
     justify-content: space-evenly;
     height: 48px;
-    width: 87.2%;
+    width: 94%;
     max-width: 540px;
     margin: 0 auto 50px;
     box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
