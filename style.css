@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.dark-mode {
+    background-color: #171823; /* dark mode*/
+}
+.light-mode {
+    background-color: #FAFAFA;
+}
+
+.absolute {
+    position: absolute;
+    min-height: fit-content;
+    top: 35px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.bg-color-dark-mode {
+    background-color: #25273D;
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+}
+.bg-color-light-mode {
+    background-color: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+}
+.color-dark-mode {
+    color: #C8CBE7;
+    font-size: 1rem;
+}
+.color-light-mode {
+    color: #2d2e41;
+    font-size: 1rem;
+}
+
+.border-bottom-dark {
+    border-bottom: 1px solid #393A4B;
+}
+.border-bottom-light {
+    border-bottom: 1px solid #E3E4F1;
+}
+
+.bg-image-dark {
+    background-image: url(images/bg-mobile-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 33.3vh;
+}
+.bg-image-light {
+    background-image: url(images/bg-mobile-light.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+}
+
+.header img {
+    cursor: pointer;
+}
+
+.mode-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.moon {
+    display: none;
+}
+
+h1 {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 14px;
+    font-size: 2.3rem;
+}
+
+.create-new-todo {
+    width: 87.2%;
+    max-width: 540px;
+    height: 48px;
+    border-radius: 5px;
+    margin: 0 auto 16px;
+    display: block;
+    padding-left: 20px;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.container-check-priority {
+    width: 87.2%;
+    max-width: 540px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-check-priority .form {
+    display: flex;
+    align-items: center;
+}
+
+label.check-priority {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Styles fo checkbox */
+.checkbox {
+    margin-right: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 1px solid #E3E4F1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+.checkbox::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 15px;
+    color: #FFFFFF;
+    content: "\f00c";
+    display: none;
+}
+.checkbox:checked {
+    background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+}
+.checkbox:checked::after {
+    display: block;
+}
+/* END checkbox */
+
+label {
+    user-select: none;
+    cursor: pointer;
+}
+
+/* BUTTONS */
+.btn {
+    background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%);
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: linear-gradient(135deg, #7be5ff 0%, #cf82f5 100%);
+    transition: 0.3s;
+}
+/* END BUTTONS */
+
+#container {
+    min-height: 368px;
+}
+
+.container-dark-mode {
+    width: 87.2%;
+    max-width: 540px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 20px 20px;
+    background-color: #25273D;
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px 5px 0 0;
+}
+
+.container-light-mode {
+    background-color: #FFFFFF;
+    box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+    border-radius: 5px 5px 0 0;
+}
+
+.todoItemWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todoItemWrapper .form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.todoItemWrapper .form, .todoItemWrapper img {
+    margin-block: 21px;
+}
+
+.todoItemWrapper .form div input{
+    margin-right: 12px;
+}
+
+.todoItemWrapper img {
+    cursor: pointer;
+    user-select: none;
+    display: none;
+}
+
+.todoItemWrapper:hover {
+    cursor: pointer;
+}
+
+.todoItemWrapper:hover img {
+    display: block;
+}
+
+.priority {
+    color: #C058F3;
+}
+
+.counter-clear-completed {
+    height: 48px;
+    width: 87.2%;
+    max-width: 540px;
+    margin: 0 auto 20px;
+    border-radius: 0 0 5px 5px;
+    padding: 0 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #5B5E7E;
+}
+
+.counter-clear-completed button {
+    background-color: transparent;
+    color: #5B5E7E;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.counter-clear-completed button:hover {
+    color: #9699b8;
+    transition: 0.3s;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 48px;
+    width: 87.2%;
+    max-width: 540px;
+    margin: 0 auto 50px;
+    box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.filter button {
+    font-weight: 700;
+    margin-right: 15px;
+    background-color: transparent;
+}
+
+.filter button:hover {
+    color: #7ca4f5;
+    cursor: pointer;
+}
+
+.filter button.active {
+    color: #3A7CFD;
+    cursor: text;
+}
+
+.filter .btn {
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+/* Style for Tablet and Desktop */
+@media only screen and (min-width: 768px) {
+    .bg-image-dark {
+        background-image: url(images/bg-desktop-dark.jpg);
+        background-position: 50% 50%;
+    }
+    .bg-image-light {
+        background-image: url(images/bg-desktop-light.jpg);
+    }
+    .header {
+        padding-top: 70px;
+    }
+    h1 {
+        font-size: 2.7rem;
+    }
+    .header img {
+        width: 26px;
+        height: 26px;
+    }
+    .create-new-todo, .container-check-priority, .filter {
+        height: 64px;
+    }
+    .filter .btn {
+        display: initial;
+    }
+}

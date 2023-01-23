@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b33b494db7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TODO</title>
+</head>
+<body class="dark-mode">
+    <div class="bg-image-dark">
+        <div class="absolute">
+            <div>
+                <header class="header">
+                    <h1>todo</h1>
+                    <img id="sun-icon" class="mode-icon sun" src="images/icon-sun.svg" alt="icon-sun">    
+                    <img id="moon-icon" class="mode-icon moon" src="images/icon-moon.svg" alt="icon-sun">    
+                </header>
+                <form action="javascript:void(0)">
+                    <input class="create-new-todo bg-color-dark-mode color-dark-mode" type="text" id="new-todo-item" placeholder="Create a new todo...">
+                </form>
+                <div class="container-check-priority create-new-todo color-dark-mode">
+                    <form class="form">
+                        <input class="checkbox" type="checkbox" id="priority">
+                        <label class="check-priority" for="priority">Check for priority</label>
+                    </form>
+                    <button class="btn" type="submit" id="submitBtn">submit</button>
+                </div>
+            </div>
+            <div class="container-dark-mode" id="container">
+                <!-- todos and new todos -->
+            </div>
+            <div class="bg-color-dark-mode counter-clear-completed">
+                <span id="item-count">6 items left</span>
+                <button id="clear-completed">Clear Completed</button>
+            </div>
+            <div class="filter bg-color-dark-mode">
+                <button id="all-items" class="color-dark-mode active">All</button>
+                <button id="priority-items" class="color-dark-mode">Priority</button>
+                <button id="completed-items" class="color-dark-mode">Completed</button>
+            </div>
+        </div>
+    </div>    
+    <script src="js/main.js"></script>
+</body>
+</html>
