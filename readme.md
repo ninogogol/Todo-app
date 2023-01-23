@@ -43,3 +43,9 @@ if(todoItemValue === '') {
 ## Author
 
 - Linkedin - [Nino Gogoladze](https://www.linkedin.com/in/nino-gogoladze-80a075227/)
+=======
+
+
+## Author
+
+- Linkedin - [Nino Gogoladze](https://www.linkedin.com/in/nino-gogoladze-80a075227/)
