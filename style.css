@@ -258,18 +258,19 @@ label {
 .filter {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 48px;
     width: 94%;
     max-width: 540px;
     margin: 0 auto 50px;
+    padding-inline: 30px;
     box-shadow: 0px 35px 50px -15px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
 }
 
 .filter button {
+    font-size: 14px;
     font-weight: 700;
-    margin-right: 15px;
     background-color: transparent;
 }
 
@@ -281,11 +282,6 @@ label {
 .filter button.active {
     color: #3A7CFD;
     cursor: text;
-}
-
-.filter .btn {
-    margin-left: 15px;
-    font-size: 14px;
 }
 
 /* Style for Tablet and Desktop */
