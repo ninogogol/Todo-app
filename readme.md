@@ -3,7 +3,7 @@
 **This is a simple to-do application that allows users to add, delete and filter to-do items.**
 
 ### Screenshot
-![](screenshot.jpg)
+![](./screenshot.jpg)
 
 ## Features
 
