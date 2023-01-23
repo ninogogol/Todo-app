@@ -216,7 +216,6 @@ label {
 .todoItemWrapper img {
     cursor: pointer;
     user-select: none;
-    display: none;
 }
 
 .todoItemWrapper:hover {
@@ -313,5 +312,8 @@ label {
     }
     .filter .btn {
         display: initial;
+    }
+    .todoItemWrapper img {
+        display: none;
     }
 }
