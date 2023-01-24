@@ -311,6 +311,7 @@ const iconMoon = document.getElementById('moon-icon')
 // Add event listener to the icon
 iconMoon.addEventListener("click", changeModeToDark)
 
+
 // Function to switch to light mode
 function changeModeToLight() {
     iconMoon.style.display = 'block'
@@ -337,6 +338,7 @@ function changeModeToLight() {
         item.classList.toggle('border-bottom-light', true)
     })
 }
+
 
 // Function to switch to dark mode
 function changeModeToDark() {
