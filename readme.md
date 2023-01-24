@@ -36,14 +36,9 @@ if(todoItemValue === '') {
 ```
 **This check is made to ensure that the user cannot submit an empty to-do item. If the input field is empty, the function will display the alert message and return without adding a new to-do item to the list.**
 
-### Frontend Mentor challenges
+### Design - Frontend Mentor challenges
 
 [Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW)
-
-## Author
-
-- Linkedin - [Nino Gogoladze](https://www.linkedin.com/in/nino-gogoladze-80a075227/)
-
 
 ## Author
 
